@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="My GPA Calculator"
+        android:textSize="50px"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software Engineering: "
+        android:textSize="40px"
+        android:layout_marginTop="200px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Structures: "
+        android:textSize="40px"
+        android:layout_marginTop="350px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Computing: "
+        android:textSize="40px"
+        android:layout_marginTop="500px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intro to Java: "
+        android:textSize="40px"
+        android:layout_marginTop="650px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Human Computer Interaction: "
+        android:textSize="40px"
+        android:layout_marginTop="800px"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA"
+        android:textSize="40px"
+        android:layout_marginTop="950px"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/e1"
+        android:layout_marginTop="200px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/e2"
+        android:layout_marginTop="350px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/e3"
+        android:layout_marginTop="500px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/e4"
+        android:layout_marginTop="650px"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:textSize="40px"
+        android:id="@+id/e5"
+        android:layout_marginTop="800px"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="300px"
+        android:layout_height="120px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="950px"
+        android:textSize="40px"
+        android:id="@+id/t"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute GPA"
+        android:textSize="40px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1100px"
+        android:id="@+id/b"/>
+</RelativeLayout>
